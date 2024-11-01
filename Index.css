@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    justify-self: center;
+    width: 60%;
+}
+.container{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.contact{
+    margin: 10px;
+    padding: 10px;
+}
+.contact p{
+    padding: 10px;
+}
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 1.5em;
+    margin: 15px;
+}
+h2{
+    border-bottom: 2.1px solid white;
+    padding-bottom: 20px;
+}
+.job{
+    margin: 20px;
+}
+.job-title{
+    text-transform: bold;
+}
+.job-date{
+    color: #666;
+    font-style: italic;
+}
+ul{
+    padding: 20px;
+}
+.skills-list{
+    list-style-type: none;
+}
+ul li{
+    padding: 3px;
+}
+.skills{
+    padding: 20px;
+}
+.right-column{
+    grid-column: span 2;
+    margin-left: 50px;
+}
+.left-column{
+    margin: 0;
+    background-color: rgb(14, 40, 77, 0.911);
+    color: white;
+}
+img{
+    margin-top: 15px;
+    border-radius: 70px;
+}
+.right-column h2{
+    color: rgb(14, 40, 77, 0.911);
+}
